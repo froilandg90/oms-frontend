@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RulesTreeDiagramComponent } from 'rules-tree-diagram';
 
 @Component({
   selector: 'app-logistic-chain',

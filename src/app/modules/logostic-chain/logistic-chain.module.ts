@@ -6,6 +6,7 @@ import { LogisticChainFiltersComponent } from "./filters/logistic-chain-filters.
 import { LogisticChainValidationRulesComponent } from "./validation-rules/logistic-chain-validation-rules.component";
 import { LogisticChainAssignationRulesComponent } from "./assignation-rules/logistic-chain-assignation-rules.component";
 import { CommonModule } from "@angular/common";
+import { RulesTreeDiagramModule } from "rules-tree-diagram";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CommonModule } from "@angular/common";
   ],
   imports: [
     CommonModule,
-    LogisticChainRoutingModule
+    LogisticChainRoutingModule,
+    RulesTreeDiagramModule
   ],
   providers: [
   ],
