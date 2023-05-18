@@ -4,4 +4,5 @@
 
 export * from './lib/rules-tree-diagram.service';
 export * from './lib/rules-tree-diagram.component';
+export * from './lib/node/node.component';
 export * from './lib/rules-tree-diagram.module';
