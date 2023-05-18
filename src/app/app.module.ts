@@ -9,7 +9,6 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
 import {NgOptimizedImage} from "@angular/common";
-import {NgxEchartsModule} from "ngx-echarts";
 
 @NgModule({
   declarations: [
@@ -24,7 +23,6 @@ import {NgxEchartsModule} from "ngx-echarts";
         MatToolbarModule,
         MatIconModule,
         NgOptimizedImage,
-        NgxEchartsModule
     ],
   providers: [],
   bootstrap: [AppComponent]
